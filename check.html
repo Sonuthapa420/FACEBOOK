@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dd{
+            height: 300px;
+            width: 100px;
+            /* background-color: lightblue; */
+            position: absolute;
+            
+        }
+        .menu{
+            list-style: none;
+            background-color: aquamarine;
+            position: relative;
+            left: 50%;
+            width: 100%;
+            transform: translateX(-50%);
+            opacity: 0;
+            display: none;
+            z-index: 1;
+            /* display: none; */
+        }
+        .caret img{
+            height: 15px;
+            width : 15px;
+           
+        }
+        .select{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            background-color: aqua;
+        }
+        .menu-open{
+            display: block;
+            opacity: 1;
+        }
+        .caret-rotate{
+transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dd">
+        <ul class="menu">
+            <li class="active">Facebook</li>
+            <li>Instagraam</li>
+            <li>sdfjsbf</li>
+            <li>jbsdjsbf</li>
+            <li>bdfjsbf</li>
+        </ul>
+        <div class="select">
+            <span class="selected">Facebook</span><div class="caret"><img src="img/dd-arrow.png"></div>
+        </div>
+    </div>
+
+
+    <script>
+
+
+const dropdown=document.querySelectorAll(".dd")
+
+dropdown.forEach(dropdown => {
+    const select =dropdown.querySelector(".select")
+    const caret =dropdown.querySelector(".caret")
+    const menu =dropdown.querySelector(".menu")
+
+    select.addEventListener("click", ()=> {
+caret.classList.toggle("caret-rotate")
+menu.classList.toggle("menu-open")
+
+    })
+
+
+})
+    </script>
+</body>
+</html>
