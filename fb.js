@@ -8,6 +8,7 @@ dropdown.forEach(dropdown => {
     select.addEventListener("click", ()=> {
 caret.classList.toggle("caret-rotate")
 menu.classList.toggle("menu-open")
+select.classList.toggle("select-end")
 
     })
 
