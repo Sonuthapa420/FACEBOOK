@@ -1,0 +1,26 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#box{
+    background-color: aqua;
+    height: 100px;
+    width: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 4px 6px whitesmoke;
+
+}

@@ -15,3 +15,19 @@ select.classList.toggle("select-end")
 
 
 })
+
+
+// STORY SCROLL
+let scrollcontainer = document.querySelector(".content")
+let previous =document.getElementById("previous-btn")
+let next = document.getElementById("next-btn")
+
+next.addEventListener("click", ()=> {
+    // document.documentElement.style.scrollBehavior = "smooth";
+    scrollcontainer.style.scrollBehavior="smooth"
+    scrollcontainer.scrollLeft += 500
+})
+previous.addEventListener("click", ()=> {
+    scrollcontainer.style.scrollBehavior = "smooth";
+    scrollcontainer.scrollLeft -= 500
+})

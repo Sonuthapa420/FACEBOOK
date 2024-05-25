@@ -445,18 +445,200 @@
     font-weight: 400;
 }
 
+/* MIDDLE PART */
+.post-story{
+    height: 92vh;
+    width: 40%;
+    /* background-color: pink; */
+    margin-top: 60px;
+}
+.container{
+    width: 100%;
+    height: 250px;
+    /* background-color: aqua; */
+    position: relative;
+    margin-top: 20px;
+}
+#previous-btn{
+    left: 8px;
+    z-index: 2;
+    top: 50%;
+}
+#next-btn{
+    right: 8px;
+    top: 50%;
+}
+#previous-btn,#next-btn{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 5px;
+    transform: translateY(-50%);
+}
+#previous-btn svg,#next-btn svg{
+    height: 20px;
+    width: 20px;
+
+}
+.container .content{
+    /* background-color:aquamarine ; */
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.container .content .stories{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
+.container .content .stories .story{
+height: 100%;
+width: 26%;
+flex-shrink: 0;
+border-radius: 16px;
+overflow: hidden;
+position: relative;
+}
+.story img{
+    height: 100%;
+    width: 100%;
+    /* border-radius: 16px; */
+}
+.container .content::-webkit-scrollbar{
+    display: none;
+}
+.story p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-family: "Roboto" , sans-serif;
+    color: white;
+    background: linear-gradient(transparent, #222 130%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* RIGHT-SIDEBAR */
-.sponsered {
+
+.your-page {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    cursor: pointer;
+
+}
+
+.your-page img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+
+.your-page p {
+    font-weight: 600;
+    font-family: "Roboto" , sans-serif;
+}
+
+.switch-page {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    cursor: pointer;
+
+}
+
+.switch-page img {
+    height: 25px;
+    padding-left: 2%;
+    width: 25px;
+    margin-left: 2%;
+}
+
+.promotion {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.switch-page:hover,
+.promotion:hover,
+.your-page:hover {
+    background-color: #d8d7d7;
+    border-radius: 10px;
+}
+
+.promotion img {
+    height: 25px;
+    width: 25px;
+    padding-left: 2%;
+    margin-left: 2%;
+
+}
+
+
+
+
+.page {
     display: flex;
     flex-direction: column;
     justify-content: start;
     /* align-items: center; */
-    gap: 10px;
+    /* gap: 5px; */
     margin-bottom: 5px;
     /* background-color: aqua; */
 }
 
-.spons {
+.page-text {
     height: 40px;
     width: 100%;
     /* background-color: #818181; */
@@ -464,16 +646,18 @@
     justify-content: start;
     align-items: end;
     /* margin-left: 2%; */
+    margin-bottom: 5px;
 
 }
 
-.spons h5 {
+.page-text h5 {
     /* padding-left: 6%; */
     font-size: 1.1em;
     color: #3c3c3c;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto" , sans-serif;
 }
 
+/* 
 .firstspons,
 .secondspons {
     display: flex;
@@ -503,7 +687,7 @@
 .firstspons p,
 .secondspons p {
     font-size: 0.9rem;
-}
+} */
 
 .your-req {
     height: 35px;
@@ -521,7 +705,7 @@ h5 {
     /* padding-bottom: 5%; */
     font-size: 1.1em;
     color: #373636;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto" , sans-serif;
 }
 
 .req-people {
@@ -532,6 +716,7 @@ h5 {
     /* margin-left: 5%; */
     /* padding-left: 5%; */
     padding: 8px 0;
+    font-family: "Roboto" , sans-serif;
     margin: 5px 0;
 }
 
@@ -559,6 +744,7 @@ h5 {
     font-weight: 700;
     padding: 2px;
 }
+
 .req-name p {
     font-size: 0.9em;
     font-weight: 400;
@@ -609,7 +795,7 @@ h5 {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background-color: ;
+    background-color: transparent;
     padding: 2px;
 }
 
@@ -649,7 +835,7 @@ h5 {
     justify-content: center;
     padding: 10px 0;
     margin: 5px 0;
-    
+
 
 }
 
@@ -716,8 +902,8 @@ h5 {
 
 .online::after {
     content: '';
-    width: 7px;
-    height: 7px;
+    width: 8px;
+    height: 8px;
     border: 2px solid white;
     border-radius: 50%;
     background-color: #41db51;
@@ -725,8 +911,6 @@ h5 {
     bottom: 5px;
     left: 35px;
 }
-.post-story {
-    width: 54%;
-    height: 92vh;
-    /* background-color: pink; */
-}
+
+
+
