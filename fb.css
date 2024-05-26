@@ -193,7 +193,7 @@
 
 /* BODY (LEFT-SIDEBAR, MIDDLE, RIGHT-SIDEBAR) */
 .sidebar {
-    width: 23%;
+    width: 21%;
     height: 92vh;
     overflow-y: scroll;
     margin-top: 60px;
@@ -207,7 +207,7 @@
 }
 
 .right-sidebar {
-    width: 23%;
+    width: 21%;
     height: 92vh;
     /* background-color: yellow; */
     overflow-y: scroll;
@@ -530,8 +530,72 @@ position: relative;
 
 }
 
+.post-feed{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.whatsonyourmind{
+    width: 100%;
+    height: 55%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.options3{
+    width: 100%;
+    height: 45%;
+    /* background-color: greenyellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #818181;
+font-size: 0.9rem;
 
+}
+.post-feed hr{
+    width: 95%;
+}
+.whatsonyourmind img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.mind{
+    width: 80%;
+    height: 65%;
+    background-color: #F2F3F5;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #818181;
+    
+}
+.livevideo img,.gallery img,.feeling img{
+    width: 25px;
+    height: 25px;
+}
+.livevideo,.feeling,.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
 
 
 
@@ -712,7 +776,7 @@ h5 {
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     /* margin-left: 5%; */
     /* padding-left: 5%; */
     padding: 8px 0;
@@ -774,7 +838,7 @@ h5 {
     /* position: relative; */
     position: absolute;
     float: left;
-    left: 89px;
+    left: 83px;
     /* z-index: 1; */
 }
 
@@ -872,6 +936,7 @@ h5 {
     width: 98%;
     transition: 0.4s;
     cursor: pointer;
+    
 
 }
 
