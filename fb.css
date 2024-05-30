@@ -25,7 +25,7 @@
     align-items: center;
     position: sticky;
     box-shadow: 0 0 3px 1px grey;
-    z-index: 1;
+    z-index: 999;
     position: fixed;
 }
 
@@ -196,7 +196,7 @@
     width: 21%;
     height: 92vh;
     overflow-y: scroll;
-    margin-top: -1035px;
+    margin-top: -1055px;
     font-weight: 600;
     font-size: 15px;
     background-color: transparent;
@@ -211,7 +211,7 @@
     height: 92vh;
     /* background-color: yellow; */
     overflow-y: scroll;
-    margin-bottom: 1035px;
+    margin-bottom: 1055px;
     position: fixed;
     scrollbar-width: thin;
     scroll-behavior: smooth;
@@ -452,7 +452,7 @@
     height: 92vh;
     width: 40%;
     /* background-color: pink; */
-    margin-top: -1035px;
+    margin-top: -1050px;
     margin-left: 455px;
 
 }
@@ -840,7 +840,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 15px;
+    gap: 10px;
     cursor: pointer;
 
 }
@@ -853,8 +853,11 @@ hr{
 }
 
 .your-page p {
-    font-weight: 600;
-    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .switch-page {
@@ -873,6 +876,14 @@ hr{
     padding-left: 2%;
     width: 25px;
     margin-left: 2%;
+}
+.switch-page p ,.promotion p{
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
 }
 
 .promotion {
@@ -914,7 +925,7 @@ hr{
 }
 
 .page-text {
-    height: 40px;
+    height: 30px;
     width: 100%;
     /* background-color: #818181; */
     display: flex;
@@ -926,12 +937,19 @@ hr{
 }
 
 .page-text h5 {
-    /* padding-left: 6%; */
-    font-size: 1.1em;
-    color: #3c3c3c;
-    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    color: rgb(106, 106, 106);
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.right-sidebar h5{
+    font-size: 1.1rem;
+    color: rgb(106, 106, 106);
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
 /* 
 .firstspons,
 .secondspons {
@@ -992,14 +1010,10 @@ h5 {
     /* padding-left: 5%; */
     padding: 8px 0;
     font-family: "Roboto", sans-serif;
-    margin: 5px 0;
+    /* margin: 3px 0; */
 }
 
-.req-people:hover {
-    background-color: #d8d7d7;
-    border-radius: 12px;
-    padding: 8px 0;
-}
+
 
 .req-people img {
     height: 60px;
@@ -1015,8 +1029,10 @@ h5 {
     gap: 5px;
 } */
 .req-name .name {
-    font-size: 1em;
-    font-weight: 700;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 2px;
 }
 
@@ -1081,10 +1097,19 @@ h5 {
     align-items: center;
     border-radius: 8px;
     color: #fff;
-    padding: 8px 20px;
+    padding: 6px 18px;
     font-weight: 500;
     cursor: pointer;
+    border: 2px solid rgb(8, 102, 255);
+transition: 0.4s;
 
+
+}
+.confirm:hover{
+    background-color: white;
+    color: rgb(8, 102, 255);
+    border:  2px solid rgb(8, 102, 255);
+    
 }
 
 .delete {
@@ -1093,7 +1118,7 @@ h5 {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    padding: 9px 35px;
+    padding: 8px 32px;
     font-weight: 500;
     cursor: pointer;
 
@@ -1109,7 +1134,6 @@ h5 {
     align-items: center;
     justify-content: center;
     padding: 10px 0;
-    margin: 5px 0;
 
 
 }
@@ -1134,7 +1158,7 @@ h5 {
     justify-content: center;
     align-items: start;
     gap: 5px;
-    margin-top: 15px;
+    margin-top: 10px;    
 }
 
 .contact1 {
@@ -1178,8 +1202,8 @@ h5 {
 
 .online::after {
     content: '';
-    width: 8px;
-    height: 8px;
+    width: 9px;
+    height: 9px;
     border: 2px solid white;
     border-radius: 50%;
     background-color: #41db51;

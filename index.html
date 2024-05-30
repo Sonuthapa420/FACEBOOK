@@ -1,23 +1,554 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>See More Dropdown</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="fb.css">
+    <link rel="icon" href="img/titlelogo.png" type="image/icon type">
 </head>
+
 <body>
-    <div class="dropdown">
-        <button id="seeMoreBtn">See More</button>
-        <ul id="dropdownList" class="hidden">
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-        </ul>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="nav">
+            <div class="nav1">
+                <img src="img/main-logo.jpeg" class="main-logo">
+                <div class="nav1-search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-search"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                    </svg>
+                    <input type="text" name="Search" placeholder="Search">
+                </div>
+            </div>
+
+            <div class="nav2">
+                <div class="nav2-1">
+                    <img src="img/home.png">
+                </div>
+                <div class="nav2-2">
+                    <img src="img/video-player.png">
+                </div>
+                <div class="nav2-3">
+                    <img src="img/marketplace.png">
+                </div>
+                <div class="nav2-4">
+                    <img src="img/group.png">
+                </div>
+                <div class="nav2-5">
+                    <img src="img/game-controller.png">
+                </div>
+            </div>
+
+            <div class="nav3">
+                <div class="nav3-1">
+                    <img src="img/dots-menu.png">
+                </div>
+                <div class="nav3-2">
+                    <img src="img/messenger.png">
+                </div>
+                <div class="nav3-3">
+                    <img src="img/notification.png">
+                </div>
+                <div class="nav3-4">
+                    <img src="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SIDEBAR -->
+    <div class="body">
+        <div class="sidebar">
+            <div class="acc-name">
+                <div class="pp"></div>Sonu Thapa
+            </div>
+            <div class="friends"><img src="img/2people.png">Friends </div>
+            <div class="memories"><img src="img/memories.png">Memories </div>
+            <div class="saved"> <img src="img/saved.png">Saved</div>
+            <div class="groups"> <img src="img/blue-group.png">Groups</div>
+            <div class="videos"><img src="img/video.png">Videos </div>
+
+            <div class="dd">
+                <ul class="menu">
+                    <li class="memorie"><img src="img/games.png">Play Games</li>
+                    <li class="memorie"><img src="img/hospitality.png">Health Center</li>
+                    <li class="memorie"><img src="img/industry.png">Ad Manager</li>
+                    <li class="memorie"><img src="img/live.png">Live</li>
+                    <li class="memorie"><img src="img/marketplace (2).png">Marketplace</li>
+                    <li class="memorie"><img src="img/cup.png">Game Wins</li>
+                    <li class="memorie"><img src="img/fund.png">Fundraisers</li>
+                    <li class="memorie"><img src="img/orderspayment.png">Orders and Payments</li>
+                    <li class="memorie"><img src="img/science.png">Climate Scinece Center</li>
+                    <li class="memorie"><img src="img/events.png">Events</li>
+                    <li class="memorie"><img src="img/msngr.png">Messenger</li>
+                    <li class="memorie"><img src="img/kidsmsngr.png">Kid Messenger</li>
+
+
+                </ul>
+                <div class="select">
+                    <div class="caret"><img src="img/dd-arrow.png"></div> <span class="selected">See More</span>
+                </div>
+                <hr>
+
+                <div class="your-shortcut">
+                    <p>Your Shortcuts</p>
+                    <br>
+                    <div class="ys1"><img src="img/8ballpool.png">8 Ball Pool</div>
+                    <div class="ys2"><img src="img/criminalcase.png">Criminal Case</div>
+                    <div class="ys3"><img src="img/basketballfrvr.png">Basketball FRVR</div>
+                    <div class="ys4"><img src="img/ludo.png">Ludo</div>
+                    <div class="ys2"><img src="img/criminalcase.png">Criminal Case</div>
+                </div>
+                <br>
+                <div class="meta">
+                    <p>Privacy · Terms · Advertising · Ad Choices · Cookies · · Meta © 2024</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="post-story">
+            <div class="container">
+                <div class="content">
+
+                    <div id="previous-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                        </svg>
+
+                    </div>
+
+                    <div class="stories">
+                        <div class="story">
+                            <img src="img/story.jpg" alt="">
+                            <p>Your Name</p>
+                        </div>
+
+                        <div class="story">
+                            <img src="img/story.jpg" alt="">
+                            <p>Your Name</p>
+                        </div>
+
+                        <div class="story">
+                            <img src="img/story.jpg" alt="">
+                            <p>Your Name</p>
+                        </div>
+
+                        <div class="story">
+                            <img src="img/story.jpg" alt="">
+                            <p>Your Name</p>
+                        </div>
+
+                        <div class="story">
+                            <img src="img/story.jpg" alt="">
+                            <p>Your Name</p>
+                        </div>
+
+                        <div class="story">
+                            <img src="img/story.jpg" alt="">
+                            <p>Your Name</p>
+                        </div>
+
+                        <div class="story">
+                            <img src="img/story.jpg" alt="">
+                            <p>Your Name</p>
+                        </div>
+
+                        <div class="story">
+                            <img src="img/story.jpg" alt="">
+                            <p>Your Name</p>
+                        </div>
+
+                        <div class="story">
+                            <img src="img/story.jpg" alt="">
+                            <p>Your Name</p>
+                        </div>
+
+                        <div class="story">
+                            <img src="img/story.jpg" alt="">
+                            <p>Your Name</p>
+                        </div>
+
+                        <div class="story">
+                            <img src="img/story.jpg" alt="">
+                            <p>Your Name</p>
+                        </div>
+                    </div>
+
+                    <div id="next-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="post-feed">
+                <div class="whatsonyourmind">
+                    <img src="img/A_black_image.jpg" alt="">
+                    <input class="mind" placeholder="What's on your mind, Name?"></input>
+                </div>
+                <hr>
+                <div class="options3">
+                    <div class="livevideo">
+                        <img src="img/livevideo.png" alt="">
+                        <p>Live Video</p>
+                    </div>
+                    <div class="gallery">
+                        <img src="img/gallery.png" alt="">
+                        <p>Photo/Video</p>
+                    </div>
+                    <div class="feeling">
+                        <img src="img/smile.png" alt="">
+                        <p>Feeling/Activity</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-post">
+
+
+                <div class="useridentity">
+                    <img src="img/A_black_image.jpg" alt="">
+                    <div class="username-date">
+                        <div class="username">
+                            <h3>Your Name Your Name</h3>
+                        </div>
+                        <div class="when-upload">
+                            <p>30 minutes ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="caption">
+                    <p>Hello World! I am using Facebook</p>
+                </div>
+                <div class="post-photo">
+                    <img src="img/A_black_image.jpg" alt="">
+                </div>
+                <div class="number-of-likes-comments">
+                    <div class="no-of-likes">
+                        <div class="haha">
+                            <img src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9953 7.9996c0 4.418-3.5816 7.9996-7.9996 7.9996S-.004 12.4176-.004 7.9996 3.5776 0 7.9957 0c4.418 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M15.9953 7.9996c0 4.418-3.5816 7.9996-7.9996 7.9996S-.004 12.4176-.004 7.9996 3.5776 0 7.9957 0c4.418 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.8'/%3E%3Cpath d='M12.5278 8.1957c.4057.1104.6772.4854.623.9024-.3379 2.6001-2.5167 4.9012-5.1542 4.9012s-4.8163-2.3011-5.1542-4.9012c-.0542-.417.2173-.792.623-.9024.8708-.237 2.5215-.596 4.5312-.596 2.0098 0 3.6605.359 4.5312.596Z' fill='%234B280E'/%3E%3Cpath d='M11.5809 12.3764c-.9328.9843-2.1948 1.6228-3.5841 1.6228-1.3892 0-2.6512-.6383-3.5839-1.6225a1.5425 1.5425 0 0 0-.016-.0174c.4475-1.0137 2.2-1.3599 3.5999-1.3599 1.4 0 3.1514.3468 3.5998 1.3599l-.0157.0171Z' fill='url(%23paint3_linear_15251_63610)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M13.3049 5.8793c.1614-1.1485-.6387-2.2103-1.7872-2.3717l-.0979-.0138c-1.1484-.1614-2.2103.6388-2.3717 1.7872l-.0163.1164a.5.5 0 0 0 .9902.1392l.0163-.1164c.0846-.6016.6408-1.0207 1.2424-.9362l.0978.0138c.6016.0845 1.0207.6407.9362 1.2423l-.0164.1164a.5.5 0 0 0 .9903.1392l.0163-.1164ZM2.6902 5.8793c-.1614-1.1485.6387-2.2103 1.7872-2.3717l.0979-.0138c1.1484-.1614 2.2103.6388 2.3717 1.7872l.0164.1164a.5.5 0 1 1-.9903.1392l-.0163-.1164c-.0846-.6016-.6408-1.0207-1.2423-.9362l-.098.0138c-.6015.0845-1.0206.6407-.936 1.2423l.0163.1164a.5.5 0 0 1-.9902.1392l-.0164-.1164Z' fill='%231C1C1D'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23FF5758' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FF5758' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5272 10.9202) scale(10.1818)'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23FFF287' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.396' y1='2.3999' x2='13.5954' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23F68628'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint3_linear_15251_63610' x1='5.1979' y1='10.7996' x2='5.245' y2='14.2452' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FF60A4'/%3E%3Cstop offset='.2417' stop-color='%23FA2E3E'/%3E%3Cstop offset='1' stop-color='%23BC0A26'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.002 0h16v15.9992h-16z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E"
+                                alt="">
+                        </div>
+                        <div class="thumbs">
+                            <img src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.5'/%3E%3Cpath d='M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.992 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z' fill='%23fff'/%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(90 .0005 8) scale(7.99958)'%3E%3Cstop offset='.5618' stop-color='%230866FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%230866FF' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5257 10.9237) scale(10.1818)'%3E%3Cstop offset='.3143' stop-color='%2302ADFC'/%3E%3Cstop offset='1' stop-color='%2302ADFC' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3989' y1='2.3999' x2='13.5983' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2302ADFC'/%3E%3Cstop offset='.5' stop-color='%230866FF'/%3E%3Cstop offset='1' stop-color='%232B7EFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E"
+                                alt="">
+                        </div>
+                        <div class="love">
+                            <img src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9963 8c0 4.4179-3.5811 7.9993-7.9986 7.9993-4.4176 0-7.9987-3.5814-7.9987-7.9992 0-4.4179 3.5811-7.9992 7.9987-7.9992 4.4175 0 7.9986 3.5813 7.9986 7.9992Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M7.9996 5.9081c-.3528-.8845-1.1936-1.507-2.1748-1.507-1.4323 0-2.4254 1.328-2.4254 2.6797 0 2.2718 2.3938 4.0094 4.0816 5.1589.3168.2157.7205.2157 1.0373 0 1.6878-1.1495 4.0815-2.8871 4.0815-5.159 0-1.3517-.993-2.6796-2.4254-2.6796-.9811 0-1.822.6225-2.1748 1.507Z' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23E11731' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23E11731' stop-opacity='.1'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3986' y1='2.4007' x2='13.5975' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FF74AE'/%3E%3Cstop offset='.5001' stop-color='%23FA2E3E'/%3E%3Cstop offset='1' stop-color='%23FF5758'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.001.0009h15.9992v15.9984H-.001z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E"
+                                alt="">
+                        </div>
+                        <div class="number">
+                            <p>542</p>
+                        </div>
+
+                    </div>
+                    <div class="no-of-comments">
+                        <p>22 comments</p>
+                        <p>97 shares</p>
+                    </div>
+                </div>
+                <div class="hr">
+                    <hr>
+                </div>
+
+                <div class="like-comment-share">
+                    <div class="likes">
+                        <img src="img/like.png" alt="">
+                        <p>Like</p>
+                    </div>
+                    <div class="comments">
+                        <img src="img/comment.png" alt="">
+                        <p>Comment</p>
+                    </div>
+                    <div class="shares">
+                        <img src="img/share.png" alt="">
+                        <p>Share</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="recent-post">
+
+<div class="top">
+                <div class="useridentity">
+                    <img src="img/A_black_image.jpg" alt="">
+                    <div class="username-date">
+                        <div class="username">
+                            <h3>VS Code Studio</h3>
+                        </div>
+                        <div class="when-upload">
+                            <p>1 minutes ago</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="caption">
+                    <p>Hello World! I am using VS Code</p>
+                </div>
+</div>
+
+
+                <div class="post-photo">
+                    <img src="https://blog.cloudanalogy.com/wp-content/uploads/2020/03/vsc-01.jpg" alt="">
+                </div>
+                <div class="number-of-likes-comments">
+                    <div class="no-of-likes">
+                        <div class="haha">
+                            <img src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9953 7.9996c0 4.418-3.5816 7.9996-7.9996 7.9996S-.004 12.4176-.004 7.9996 3.5776 0 7.9957 0c4.418 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M15.9953 7.9996c0 4.418-3.5816 7.9996-7.9996 7.9996S-.004 12.4176-.004 7.9996 3.5776 0 7.9957 0c4.418 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.8'/%3E%3Cpath d='M12.5278 8.1957c.4057.1104.6772.4854.623.9024-.3379 2.6001-2.5167 4.9012-5.1542 4.9012s-4.8163-2.3011-5.1542-4.9012c-.0542-.417.2173-.792.623-.9024.8708-.237 2.5215-.596 4.5312-.596 2.0098 0 3.6605.359 4.5312.596Z' fill='%234B280E'/%3E%3Cpath d='M11.5809 12.3764c-.9328.9843-2.1948 1.6228-3.5841 1.6228-1.3892 0-2.6512-.6383-3.5839-1.6225a1.5425 1.5425 0 0 0-.016-.0174c.4475-1.0137 2.2-1.3599 3.5999-1.3599 1.4 0 3.1514.3468 3.5998 1.3599l-.0157.0171Z' fill='url(%23paint3_linear_15251_63610)'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M13.3049 5.8793c.1614-1.1485-.6387-2.2103-1.7872-2.3717l-.0979-.0138c-1.1484-.1614-2.2103.6388-2.3717 1.7872l-.0163.1164a.5.5 0 0 0 .9902.1392l.0163-.1164c.0846-.6016.6408-1.0207 1.2424-.9362l.0978.0138c.6016.0845 1.0207.6407.9362 1.2423l-.0164.1164a.5.5 0 0 0 .9903.1392l.0163-.1164ZM2.6902 5.8793c-.1614-1.1485.6387-2.2103 1.7872-2.3717l.0979-.0138c1.1484-.1614 2.2103.6388 2.3717 1.7872l.0164.1164a.5.5 0 1 1-.9903.1392l-.0163-.1164c-.0846-.6016-.6408-1.0207-1.2423-.9362l-.098.0138c-.6015.0845-1.0206.6407-.936 1.2423l.0163.1164a.5.5 0 0 1-.9902.1392l-.0164-.1164Z' fill='%231C1C1D'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23FF5758' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FF5758' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5272 10.9202) scale(10.1818)'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23FFF287' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.396' y1='2.3999' x2='13.5954' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23F68628'/%3E%3C/linearGradient%3E%3ClinearGradient id='paint3_linear_15251_63610' x1='5.1979' y1='10.7996' x2='5.245' y2='14.2452' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FF60A4'/%3E%3Cstop offset='.2417' stop-color='%23FA2E3E'/%3E%3Cstop offset='1' stop-color='%23BC0A26'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.002 0h16v15.9992h-16z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E"
+                                alt="">
+                        </div>
+                        <div class="thumbs">
+                            <img src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.5'/%3E%3Cpath d='M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.992 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z' fill='%23fff'/%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(90 .0005 8) scale(7.99958)'%3E%3Cstop offset='.5618' stop-color='%230866FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%230866FF' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5257 10.9237) scale(10.1818)'%3E%3Cstop offset='.3143' stop-color='%2302ADFC'/%3E%3Cstop offset='1' stop-color='%2302ADFC' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3989' y1='2.3999' x2='13.5983' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2302ADFC'/%3E%3Cstop offset='.5' stop-color='%230866FF'/%3E%3Cstop offset='1' stop-color='%232B7EFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E"
+                                alt="">
+                        </div>
+                        <div class="love">
+                            <img src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9963 8c0 4.4179-3.5811 7.9993-7.9986 7.9993-4.4176 0-7.9987-3.5814-7.9987-7.9992 0-4.4179 3.5811-7.9992 7.9987-7.9992 4.4175 0 7.9986 3.5813 7.9986 7.9992Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M7.9996 5.9081c-.3528-.8845-1.1936-1.507-2.1748-1.507-1.4323 0-2.4254 1.328-2.4254 2.6797 0 2.2718 2.3938 4.0094 4.0816 5.1589.3168.2157.7205.2157 1.0373 0 1.6878-1.1495 4.0815-2.8871 4.0815-5.159 0-1.3517-.993-2.6796-2.4254-2.6796-.9811 0-1.822.6225-2.1748 1.507Z' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23E11731' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23E11731' stop-opacity='.1'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3986' y1='2.4007' x2='13.5975' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FF74AE'/%3E%3Cstop offset='.5001' stop-color='%23FA2E3E'/%3E%3Cstop offset='1' stop-color='%23FF5758'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.001.0009h15.9992v15.9984H-.001z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E"
+                                alt="">
+                        </div>
+                        <div class="number">
+                            <p>542k</p>
+                        </div>
+
+                    </div>
+                    <div class="no-of-comments">
+                        <p>22k comments</p>
+                        <p>904 shares</p>
+                    </div>
+                </div>
+                <div class="hr">
+                    <hr>
+                </div>
+
+                <div class="like-comment-share">
+                    <div class="likes">
+                        <img src="img/like.png" alt="">
+                        <p>Like</p>
+                    </div>
+                    <div class="comments">
+                        <img src="img/comment.png" alt="">
+                        <p>Comment</p>
+                    </div>
+                    <div class="shares">
+                        <img src="img/share.png" alt="">
+                        <p>Share</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="load">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+                </svg>
+                <p>See More</p>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="right-sidebar">
+            <div class="page">
+                <div class="page-text">
+                    <h5>Your Pages and Profile</h5>
+                </div>
+                <!-- <div class="firstspons">
+                    <img src="img/upliftdesk.jpg" alt="">
+                    <p>GET 15% OFF & Gifts Today!<br>upliftdesk.com</p>
+                </div> -->
+                <!-- <div class="secondspons">
+                    <img src="img/bedsheet.jpg" alt="">
+                    <p>GET 10% OFF TODAY!<br>bedsheecorner.com</p>
+                </div> -->
+                <div class="your-page">
+                    <img src="img/A_black_image.jpg" alt="">
+                    <p>Your Page</p>
+                </div>
+                <div class="switch-page">
+                    <img src="img/switch.png" alt="">
+                    <p>Switch to page</p>
+                </div>
+                <div class="promotion">
+                    <img src="img/promotion.png" alt="">
+                    <p>Create Promotion</p>
+                </div>
+            </div>
+            <hr>
+
+
+            <h5>Your Requests</h5>
+            <div class="req-people">
+                <img src="img/A_black_image.jpg">
+                <div class="req-name">
+                    <p class="name">Unknown</p>
+                    <div class="mutual-frends">
+                        <div class="mutual-pp">
+                            <div class="pp1"></div>
+                            <div class="pp2"></div>
+                        </div>
+                        <p> 6 mutual friends</p>
+                    </div>
+                    <div class="confirm-del">
+                        <div class="confirm">Confirm</div>
+                        <div class="delete">Delete</div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <h5>Birthdays</h5>
+            <div class="birthdays">
+                <img src="img/birthday.png">
+                <div class="names">
+                    <p><b>JavaScript</b> and <b>HTML-CSS</b> have birthdays today.</p>
+                </div>
+            </div>
+            <hr>
+
+            <h5>Contacts</h5>
+            <div class="contacts">
+                <div class="contact1 online">
+                    <img src="img/xxxtentacion.jpg">
+                    <p>XxxTentacion</p>
+                </div>
+                <div class="contact1 online">
+                    <img src="img/juicewrld.png">
+                    <p>Juice Wrld</p>
+                </div>
+                <div class="contact1 online">
+                    <img src="img/weeknd.png">
+                    <p>Kendrick Lamar</p>
+                </div>
+                <div class="contact1 online">
+                    <img src="img/billie.png">
+                    <p>Billie Elish</p>
+                </div>
+                <div class="contact1 online">
+                    <img src="img/xxxtentacion.jpg">
+                    <p>XxxTentacion</p>
+                </div>
+                <div class="contact1 online">
+                    <img src="img/juicewrld.png">
+                    <p>Juice Wrld</p>
+                </div>
+                <div class="contact1 online">
+                    <img src="img/weeknd.png">
+                    <p>Weeknd</p>
+                </div>
+                <div class="contact1 online">
+                    <img src="img/xxxtentacion.jpg">
+                    <p>XxxTentacion</p>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
 
-    <script src="script.js"></script>
+
+    <script src="fb.js"></script>
 </body>
+
 </html>
