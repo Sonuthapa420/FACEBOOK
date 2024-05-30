@@ -196,7 +196,7 @@
     width: 21%;
     height: 92vh;
     overflow-y: scroll;
-    margin-top: -1045px;
+    margin-top: -1030px;
     font-weight: 600;
     font-size: 15px;
     background-color: transparent;
@@ -211,7 +211,7 @@
     height: 92vh;
     /* background-color: yellow; */
     overflow-y: scroll;
-    margin-bottom: 1055px;
+    margin-bottom: 1030px;
     position: fixed;
     scrollbar-width: thin;
     scroll-behavior: smooth;
