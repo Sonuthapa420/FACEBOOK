@@ -3,6 +3,9 @@
     margin: 0;
     font-family: inherit;
 }
+body{
+    background-color: #F0F2F5;
+}
 
 .body {
     height: 250vh;
@@ -211,7 +214,7 @@
     height: 92vh;
     /* background-color: yellow; */
     overflow-y: scroll;
-    margin-bottom: 1055px;
+    margin-top: -1055px;
     position: fixed;
     scrollbar-width: thin;
     scroll-behavior: smooth;
