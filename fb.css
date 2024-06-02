@@ -3,7 +3,9 @@
     margin: 0;
     font-family: inherit;
 }
-
+body{
+    background-color:#F0F2F5;
+}
 .body {
     height: 250vh;
     background-color: #F0F2F5;
