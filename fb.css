@@ -222,7 +222,7 @@ body {
 
 .setting-menu-box {
     position: absolute;
-    height: 370px;
+    height: 340px;
     width: 20%;
     background-color: whitesmoke;
     top: 62px;
@@ -231,15 +231,16 @@ body {
     box-shadow: 0px 0px 10px 1px grey;
     padding: 0.8%;
     display: none;
-    
+
 
 }
 
 .setting-menu-toggle {
     display: block;
 }
-.switching{
-    height: 49%;
+
+.switching {
+    height: 50%;
     width: 99%;
     padding: 1%;
     background-color: transparent;
@@ -247,8 +248,14 @@ body {
     border-radius: 7px;
 
 }
-.rotate-switch{
-    height: 52px;
+
+.switching .acc-name {
+    height: 35%;
+    width: 100%;
+}
+
+.rotate-switch {
+    height: 30%;
     width: 95%;
     display: flex;
     justify-content: start;
@@ -260,21 +267,94 @@ body {
     background-color: transparent;
     cursor: pointer;
 }
-.rotate-switch:hover{
+
+.rotate-switch:hover {
     background-color: rgb(226, 229, 232);
     border-radius: 8px;
 }
-.page-img{
-height: 20px;
-width: 20px;
-border-radius: 50%;
+
+.page-img {
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    position: absolute;
+    left: 37px;
+    top: 88px;
 }
-.rotate{
+
+.rotate {
     height: 35px;
     width: 35px;
+    transition: all 0.3s;
+    position: relative;
+    color: #969696;
 }
-/* .rotating{
-    -webkit-transform: rotate(90deg)} */
+
+.rotating {
+    transform: rotate(1turn);
+}
+
+.rotate-switch p {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.all-profile {
+    height: 40px;
+    width: 100%;
+    background-color:  rgb(226, 229, 232);
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 5px;
+    font-size: 0.9rem;
+ border-radius: 8px;
+ transition: 0.4s;
+}
+.all-profile:hover{
+    background-color: rgb(199, 201, 203);
+   
+}
+
+.all-profile img {
+    height: 22px;
+    width: 22px;
+}
+.dark-mode{
+    height: 45%;
+    width: 100%;
+    /* background-color: pink; */
+    margin-top:3% ;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.darkmode-img{
+    height: 40px;
+    width: 40px;
+    background-color: #969696;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.darkmode-img img{
+    height: 25px;
+    width: 25px;
+}
+.darkmode-yn{
+    height: 100%;
+    width: 85%;
+    background-color: yellow;
+}
 
 
 /********** BODY (LEFT-SIDEBAR, MIDDLE, RIGHT-SIDEBAR) ********/

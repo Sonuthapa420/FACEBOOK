@@ -41,4 +41,5 @@ function settingMenu(){
 var rotateit=document.querySelector(".rotate")
 function rotation(){
     rotateit.classList.toggle("rotating")
+    // alert("hello")
 }
