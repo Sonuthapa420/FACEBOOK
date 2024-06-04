@@ -23,7 +23,6 @@ let previous =document.getElementById("previous-btn")
 let next = document.getElementById("next-btn")
 
 next.addEventListener("click", ()=> {
-    // document.documentElement.style.scrollBehavior = "smooth";
     scrollcontainer.style.scrollBehavior="smooth"
     scrollcontainer.scrollLeft += 500
 })
@@ -31,3 +30,15 @@ previous.addEventListener("click", ()=> {
     scrollcontainer.style.scrollBehavior = "smooth";
     scrollcontainer.scrollLeft -= 500
 })
+
+// SETTING MENU OPEN
+var settingmenu = document.querySelector(".setting-menu-box")
+function settingMenu(){
+    settingmenu.classList.toggle("setting-menu-toggle")
+}
+
+//ROTATION WHILE HOVER ON SWITCH ACCOUNT
+var rotateit=document.querySelector(".rotate")
+function rotation(){
+    rotateit.classList.toggle("rotating")
+}

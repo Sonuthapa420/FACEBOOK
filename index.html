@@ -16,7 +16,7 @@
 
 <body>
 
-    <!-- NAVBAR -->
+    <!----------------------------- NAVBAR --------------------------------------->
     <header>
         <div class="nav">
             <div class="nav1">
@@ -59,14 +59,39 @@
                 <div class="nav3-3">
                     <img src="img/notification.png">
                 </div>
-                <div class="nav3-4">
-                    <img src="">
+                <div class="nav3-4 " onclick="settingMenu()">
+                    <img src="img/A_black_image.jpg">
+                </div>
+                <div class="setting-dropdown-img">
+                    <img src="img/dd-arrow.png" alt="">
+                </div>
+                <div class="setting-menu-box">
+                    <div class="switching">
+                        <div class="acc-name">
+                            <div class="pp"></div>Sonu Thapa
+                        </div>
+                        <hr style="width:99%"> 
+
+
+
+                        <div class="rotate-switch" ondrag="rotation()" >
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat rotate" viewBox="0 0 16 16">
+                                <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9"/>
+                                <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z"/>
+                              </svg>
+                            <img class="page-img" src="img/A_black_image.jpg" alt="">
+                        </div>
+
+
+                        
+                    </div>
                 </div>
             </div>
         </div>
+        
     </header>
 
-    <!-- SIDEBAR -->
+    <!---------------------------------- SIDEBAR ------------------------------------->
     <div class="body">
         <div class="sidebar">
             <div class="acc-name">
@@ -118,6 +143,7 @@
         </div>
 
 
+        <!---------------------------------- MIDDLE-BAR ---------------------------------------->
         <div class="post-story">
             <div class="container">
                 <div class="content">
@@ -219,9 +245,8 @@
                 </div>
             </div>
 
+            <!------ FIRST-POST -------->
             <div class="recent-post">
-
-
                 <div class="useridentity">
                     <img src="img/A_black_image.jpg" alt="">
                     <div class="username-date">
@@ -286,29 +311,31 @@
 
             </div>
 
+
+            <!------ SECOND-POST -------->
             <div class="recent-post1">
 
-<div class="top">
-                <div class="useridentity">
-                    <img src="img/A_black_image.jpg" alt="">
-                    <div class="username-date">
-                        <div class="username">
-                            <h3>VS Code Studio</h3>
+                <div class="top">
+                    <div class="useridentity">
+                        <img src="img/A_black_image.jpg" alt="">
+                        <div class="username-date">
+                            <div class="username">
+                                <h3>VS Code Studio</h3>
+                            </div>
+                            <div class="when-upload">
+                                <p>1 minutes ago</p>
+                            </div>
                         </div>
-                        <div class="when-upload">
-                            <p>1 minutes ago</p>
-                        </div>
+                    </div>
+
+                    <div class="caption">
+                        <p>Hello World! I am using VS Code</p>
                     </div>
                 </div>
 
-                <div class="caption">
-                    <p>Hello World! I am using VS Code</p>
-                </div>
-</div>
-
 
                 <div class="post-photo">
-                    <img src="https://blog.cloudanalogy.com/wp-content/uploads/2020/03/vsc-01.jpg" alt="">
+                    <img src="img/VSCODE.jpg" alt="">
                 </div>
                 <div class="number-of-likes-comments">
                     <div class="no-of-likes">
@@ -365,76 +392,10 @@
                 <p>See More</p>
             </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <!-------------------------------------- RIGHT-SIDEBAR ----------------------------------->
 
         <div class="right-sidebar">
             <div class="page">
@@ -530,29 +491,12 @@
                 </div>
             </div>
 
-
-
-
-
-
         </div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
     </div>
-
-
     <script src="fb.js"></script>
 </body>
 

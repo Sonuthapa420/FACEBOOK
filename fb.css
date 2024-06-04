@@ -3,7 +3,8 @@
     margin: 0;
     font-family: inherit;
 }
-body{
+
+body {
     background-color: #F0F2F5;
 }
 
@@ -18,7 +19,7 @@ body{
     /* padding-top: 65px; */
 }
 
-/* NAVBAR */
+/********************* NAVBAR **************************/
 .nav {
     height: 55px;
     width: 100%;
@@ -32,7 +33,7 @@ body{
     position: fixed;
 }
 
-/* NAV PART-1 OF NAVBAR */
+/******************** NAV PART-1 OF NAVBAR ****************/
 .nav1 {
     width: 20%;
     display: flex;
@@ -74,7 +75,7 @@ body{
     color: rgb(58, 58, 58);
 }
 
-/* NAV PART-2 OF NAVBAR */
+/******************** NAV PART-2 OF NAVBAR *****************/
 .nav2 {
     background-color: transparent;
     height: 55px;
@@ -138,7 +139,6 @@ body{
     filter: invert(68%) sepia(8%) saturate(74%) hue-rotate(182deg) brightness(93%) contrast(88%);
 }
 
-/* Hover of part 2 navbar */
 .nav2-1:hover,
 .nav2-2:hover,
 .nav2-3:hover,
@@ -149,7 +149,7 @@ body{
 }
 
 
-/* NAV PART-3 OF NAVBAR */
+/********************** NAV PART-3 OF NAVBAR **************/
 .nav3 {
     display: flex;
     align-items: center;
@@ -194,7 +194,90 @@ body{
     background-color: transparent;
 }
 
-/* BODY (LEFT-SIDEBAR, MIDDLE, RIGHT-SIDEBAR) */
+.nav3-4 img {
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.setting-dropdown-img {
+    background-color: rgb(222, 222, 222);
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+.setting-dropdown-img img {
+    height: 7px;
+    width: 7px;
+}
+
+.setting-menu-box {
+    position: absolute;
+    height: 370px;
+    width: 20%;
+    background-color: whitesmoke;
+    top: 62px;
+    right: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px grey;
+    padding: 0.8%;
+    display: none;
+    
+
+}
+
+.setting-menu-toggle {
+    display: block;
+}
+.switching{
+    height: 49%;
+    width: 99%;
+    padding: 1%;
+    background-color: transparent;
+    box-shadow: 0px 0px 6px -1px grey;
+    border-radius: 7px;
+
+}
+.rotate-switch{
+    height: 52px;
+    width: 95%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 2%;
+    padding-left: 3%;
+    transition: 0.2s;
+    background-color: transparent;
+    cursor: pointer;
+}
+.rotate-switch:hover{
+    background-color: rgb(226, 229, 232);
+    border-radius: 8px;
+}
+.page-img{
+height: 20px;
+width: 20px;
+border-radius: 50%;
+}
+.rotate{
+    height: 35px;
+    width: 35px;
+}
+/* .rotating{
+    -webkit-transform: rotate(90deg)} */
+
+
+/********** BODY (LEFT-SIDEBAR, MIDDLE, RIGHT-SIDEBAR) ********/
 .sidebar {
     width: 21%;
     height: 92vh;
@@ -236,7 +319,7 @@ body{
 }
 
 
-/* LEFT-SIDEBAR */
+/******************** LEFT-SIDEBAR ***********************/
 .sidebar-inner p {
     padding-top: 55px;
     background-color: black;
@@ -283,7 +366,7 @@ body{
 }
 
 
-/* Hover of sidebar */
+
 .acc-name:hover,
 .friends:hover,
 .memories:hover,
@@ -297,7 +380,7 @@ body{
 
 
 
-/* DROPDOWN SEE MORE */
+/************* DROPDOWN SEE MORE *****************/
 .dd {
     position: absolute;
     height: 52px;
@@ -410,7 +493,6 @@ body{
     border-radius: 8px;
 }
 
-/* YOUR SHORTCUTS */
 .your-shortcut {
     margin-top: 10px;
 }
@@ -462,7 +544,7 @@ body{
     font-weight: 400;
 }
 
-/* MIDDLE PART */
+/************************ MIDDLE PART *************************/
 
 
 .container {
@@ -529,7 +611,7 @@ body{
     flex-shrink: 0;
     border-radius: 16px;
     overflow: hidden;
-    position: relative; 
+    position: relative;
 }
 
 .story img {
@@ -652,6 +734,7 @@ body{
 
 
 }
+
 .recent-post1 {
     height: 630px;
     width: 100%;
@@ -723,7 +806,7 @@ body{
     align-items: center;
     justify-content: center;
     font-size: 15px;
-position: relative;
+    position: relative;
 }
 
 .no-of-comments {
@@ -757,7 +840,8 @@ position: relative;
     /* background-color: aqua; */
 
 }
-.haha{
+
+.haha {
     position: absolute;
     display: flex;
     align-items: center;
@@ -768,7 +852,8 @@ position: relative;
     left: 15px;
     z-index: 2;
 }
-.thumbs{
+
+.thumbs {
     position: absolute;
     display: flex;
     align-items: center;
@@ -779,28 +864,36 @@ position: relative;
     z-index: 1;
 
 }
-.love{
+
+.love {
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-left: 49px;
-border: 2px solid white;
-border-radius: 50%;
+    left: 49px;
+    border: 2px solid white;
+    border-radius: 50%;
 }
-.number{
+
+.number {
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-left: 75px;
+    left: 75px;
 }
-.likes img,.comments img, .shares img{
-height: 20px;
-width: 20px;
-filter: invert(73%) sepia(1%) saturate(0%) hue-rotate(259deg) brightness(60%) contrast(85%);
+
+.likes img,
+.comments img,
+.shares img {
+    height: 20px;
+    width: 20px;
+    filter: invert(73%) sepia(1%) saturate(0%) hue-rotate(259deg) brightness(60%) contrast(85%);
 }
-.likes,.comments,.shares{
+
+.likes,
+.comments,
+.shares {
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -808,23 +901,27 @@ filter: invert(73%) sepia(1%) saturate(0%) hue-rotate(259deg) brightness(60%) co
     justify-content: center;
     padding: 7px 50px;
     color: #686868;
-font-weight: 500;
+    font-weight: 500;
 }
-.likes:hover,.comments:hover,.shares:hover{
-background-color: #e1e1e1;
-border-radius: 5px;
+
+.likes:hover,
+.comments:hover,
+.shares:hover {
+    background-color: #e1e1e1;
+    border-radius: 5px;
 }
-.hr{
+
+.hr {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-hr{
+hr {
     width: 95%;
 }
 
-.load{
+.load {
     width: 100%;
     display: flex;
     align-items: center;
@@ -834,7 +931,8 @@ hr{
     gap: 10px;
 
 }
-.load svg{
+
+.load svg {
     height: 25px;
     width: 25px;
     color: grey;
@@ -853,7 +951,7 @@ hr{
 
 
 
-/* RIGHT-SIDEBAR */
+/********************** RIGHT-SIDEBAR ***********************/
 
 .your-page {
     width: 100%;
@@ -878,7 +976,7 @@ hr{
     color: rgb(0, 0, 0);
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 }
 
 .switch-page {
@@ -898,7 +996,9 @@ hr{
     width: 25px;
     margin-left: 2%;
 }
-.switch-page p ,.promotion p{
+
+.switch-page p,
+.promotion p {
     font-size: 0.9rem;
     color: rgb(0, 0, 0);
     font-weight: 400;
@@ -964,13 +1064,14 @@ hr{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.right-sidebar h5{
+.right-sidebar h5 {
     font-size: 1.1rem;
     color: rgb(106, 106, 106);
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- 
+
 }
+
 /* 
 .firstspons,
 .secondspons {
@@ -1122,15 +1223,16 @@ h5 {
     font-weight: 500;
     cursor: pointer;
     border: 2px solid rgb(8, 102, 255);
-transition: 0.4s;
+    transition: 0.4s;
 
 
 }
-.confirm:hover{
+
+.confirm:hover {
     background-color: white;
     color: rgb(8, 102, 255);
-    border:  2px solid rgb(8, 102, 255);
-    
+    border: 2px solid rgb(8, 102, 255);
+
 }
 
 .delete {
@@ -1179,7 +1281,7 @@ transition: 0.4s;
     justify-content: center;
     align-items: start;
     gap: 5px;
-    margin-top: 10px;    
+    margin-top: 10px;
 }
 
 .contact1 {
