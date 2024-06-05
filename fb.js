@@ -43,3 +43,10 @@ function rotation(){
     rotateit.classList.toggle("rotating")
     // alert("hello")
 }
+
+//DARK MODE
+const body = document.querySelector(".body")
+function makeitDark(){
+    // alert("lts make it dark")
+body.classList.toggle(".DARK")
+}

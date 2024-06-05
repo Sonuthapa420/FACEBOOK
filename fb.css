@@ -8,7 +8,12 @@ body {
     background-color: #F0F2F5;
 }
 
+.DARK {
+    background-color: black;
+}
+
 .body {
+    --background-color: black;
     height: 250vh;
     background-color: #F0F2F5;
     display: flex;
@@ -108,35 +113,35 @@ body {
     height: 25px;
     width: 26px;
     background-color: transparent;
-    filter: invert(45%) sepia(3%) saturate(1469%) hue-rotate(163deg) brightness(99%) contrast(84%);
+    filter: invert(45%) sepia(3%) saturate(1469%) hue-rotate(163deg) brightness(99%) contrast(0%);
 }
 
 .nav2-2 img {
     height: 29px;
     width: 28px;
     background-color: transparent;
-    filter: invert(68%) sepia(8%) saturate(74%) hue-rotate(182deg) brightness(93%) contrast(88%);
+    filter: invert(68%) sepia(8%) saturate(74%) hue-rotate(182deg) brightness(93%) contrast(0%);
 }
 
 .nav2-3 img {
     height: 29px;
     width: 30px;
     background-color: transparent;
-    filter: invert(68%) sepia(8%) saturate(74%) hue-rotate(182deg) brightness(93%) contrast(88%);
+    filter: invert(68%) sepia(8%) saturate(74%) hue-rotate(182deg) brightness(93%) contrast(0%);
 }
 
 .nav2-4 img {
     height: 35px;
     width: 32px;
     background-color: transparent;
-    filter: invert(68%) sepia(8%) saturate(74%) hue-rotate(182deg) brightness(93%) contrast(88%);
+    filter: invert(68%) sepia(8%) saturate(74%) hue-rotate(182deg) brightness(93%) contrast(0%);
 }
 
 .nav2-5 img {
     height: 35px;
     width: 32px;
     background-color: transparent;
-    filter: invert(68%) sepia(8%) saturate(74%) hue-rotate(182deg) brightness(93%) contrast(88%);
+    filter: invert(68%) sepia(8%) saturate(74%) hue-rotate(182deg) brightness(93%) contrast(0%);
 }
 
 .nav2-1:hover,
@@ -231,8 +236,6 @@ body {
     box-shadow: 0px 0px 10px 1px grey;
     padding: 0.8%;
     display: none;
-
-
 }
 
 .setting-menu-toggle {
@@ -302,7 +305,7 @@ body {
 .all-profile {
     height: 40px;
     width: 100%;
-    background-color:  rgb(226, 229, 232);
+    background-color: rgb(226, 229, 232);
     margin-top: 3%;
     display: flex;
     align-items: center;
@@ -310,23 +313,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     gap: 5px;
     font-size: 0.9rem;
- border-radius: 8px;
- transition: 0.4s;
+    border-radius: 8px;
+    transition: 0.4s;
 }
-.all-profile:hover{
+
+.all-profile:hover {
     background-color: rgb(199, 201, 203);
-   
+
 }
 
 .all-profile img {
     height: 22px;
     width: 22px;
 }
-.dark-mode{
+
+.dark-mode {
     height: 45%;
     width: 100%;
     /* background-color: pink; */
-    margin-top:3% ;
+    margin-top: 3%;
     display: flex;
     flex-direction: row;
     align-items: start;
@@ -335,7 +340,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
-.darkmode-img{
+
+.darkmode-img {
     height: 40px;
     width: 40px;
     background-color: #969696;
@@ -346,14 +352,26 @@ body {
     justify-content: center;
 
 }
-.darkmode-img img{
+
+.darkmode-img img {
     height: 25px;
     width: 25px;
 }
-.darkmode-yn{
+
+.darkmode-yn {
     height: 100%;
     width: 85%;
-    background-color: yellow;
+    /* background-color: yellow; */
+}
+
+.dm-yes-no span {
+    font-size: 1.1rem;
+}
+
+.dm-yes-no input[type="radio"] {
+    accent-color: rgb(56, 56, 56);
+    height: 15px;
+    width: 15px;
 }
 
 
@@ -820,7 +838,7 @@ body {
     width: 100%;
     background-color: white;
     border-radius: 10px;
-    margin-top: 120px;
+    margin-top: 15px;
     box-shadow: 0 1px 3px -1px grey;
 
 
